@@ -1,0 +1,42 @@
+.header{
+    width: 100%;
+    min-height: 100px;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 20px;
+}
+a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #555;
+    letter-spacing: 2px;
+  }
+  a:hover{
+    color: lightseagreen;
+  }
+  ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 0 15px;
+  }
+  .menu{
+      display: none;
+  }
+  .cart-icon{
+    position: relative;
+    margin-right: 15px;
+  }
+  .cart-icon span{
+    background: crimson;
+    border-radius: 20px;
+    color: white;
+    position: absolute;
+    top:-10px;
+    right: -10px;
+    font-size: 10px;
+    padding: 5px;
+  }
