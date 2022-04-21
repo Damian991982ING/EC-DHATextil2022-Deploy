@@ -1,16 +1,13 @@
 import React from "react";
 import {} from "react-router-dom";
-import "./ItemList.css";
+import "./ItemListContainer.css";
 
-const ItemList=(props)=>{
+const ItemListContainer=(props)=>{
     return(
         <div className="title-prop">
             <h2>{props.greeting}</h2>
 
         </div>
-          
-        
-        
 
         
 
@@ -18,4 +15,4 @@ const ItemList=(props)=>{
 
 }
 
-export default ItemList;
+export default ItemListContainer;

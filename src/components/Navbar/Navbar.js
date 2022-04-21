@@ -1,7 +1,7 @@
 import React from "react";
 import Menu from "../svg/bars-solid.svg";
 import Close from "../svg/times-solid.svg";
-import Cartwidget from "../Cartwidget/Cartwidget";
+import CartWidget from "../CartWidget/CartWidget";
 
 
 import "./Navbar.css";
@@ -26,7 +26,7 @@ const Nabvar=()=>{
                 </li>
             </ul>
             <div>
-               <Cartwidget/>
+               <CartWidget/>
             </div>
                
             
