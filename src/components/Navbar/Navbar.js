@@ -1,12 +1,12 @@
-import React,{useEffect, useState} from "react";
+import React,{ useState} from "react";
 import Menu from "../svg/bars-solid.svg";
 import Close from "../svg/times-solid.svg";
 import CartWidget from "../CartWidget/CartWidget";
 import {Link, NavLink} from "react-router-dom";
 import "./NavBar.css";
-import {getFirestore, getDocs, collection} from "firebase/firestore";
 
-function getCategories(){
+
+
    
 
 const NavBar=()=>{
